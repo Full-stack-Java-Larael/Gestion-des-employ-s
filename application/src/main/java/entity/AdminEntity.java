@@ -9,9 +9,20 @@ public class AdminEntity {
     @Id
     @Column(name = "id_user", nullable = false)
     private long idUser;
-    @OneToOne
-    @JoinColumn(name = "id_user", referencedColumnName = "id_user", nullable = false)
+
+    @OneToOne(orphanRemoval = true)
+    @JoinTable(name = "admin_userByIdUser",
+            joinColumns = @JoinColumn(name = "adminEntity_id_user"),
+            inverseJoinColumns = @JoinColumn(name = "userByIdUser_id_user"))
     private UserEntity userByIdUser;
+
+    public UserEntity getUserByIdUser() {
+        return userByIdUser;
+    }
+
+    public void setUserByIdUser(UserEntity userByIdUser) {
+        this.userByIdUser = userByIdUser;
+    }
 
     public long getIdUser() {
         return idUser;
@@ -36,13 +47,5 @@ public class AdminEntity {
     @Override
     public int hashCode() {
         return (int) (idUser ^ (idUser >>> 32));
-    }
-
-    public UserEntity getUserByIdUser() {
-        return userByIdUser;
-    }
-
-    public void setUserByIdUser(UserEntity userByIdUser) {
-        this.userByIdUser = userByIdUser;
     }
 }

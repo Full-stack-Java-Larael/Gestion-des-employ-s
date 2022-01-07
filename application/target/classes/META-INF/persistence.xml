@@ -5,5 +5,17 @@
              version="2.2">
     <persistence-unit name="default">
 
+        <class>entity.AddressEntity</class>
+        <class>entity.AdminEntity</class>
+        <class>entity.EmployeEntity</class>
+        <class>entity.RoleEntity</class>
+        <class>entity.UserEntity</class>
+        <properties>
+            <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/gestion_employe"/>
+            <property name="hibernate.connection.driver_class" value="com.mysql.cj.jdbc.Driver"/>
+            <property name="hibernate.connection.username" value="root"/>
+            <property name="hibernate.connection.password" value=""/>
+            <property name="hibernate.show_sql" value="true"/>
+        </properties>
     </persistence-unit>
 </persistence>

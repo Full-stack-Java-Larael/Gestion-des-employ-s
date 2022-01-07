@@ -6,9 +6,8 @@ import javax.persistence.*;
 @Table(name = "address", schema = "gestion_employe", catalog = "")
 public class AddressEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Basic
     @Id
-    @Column(name = "id_address",nullable = false)
+    @Column(name = "id_address", nullable = false)
     private long idAddress;
     @Basic
     @Column(name = "street", nullable = false, length = -1)

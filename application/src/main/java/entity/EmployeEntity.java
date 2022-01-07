@@ -16,9 +16,20 @@ public class EmployeEntity {
     @Basic
     @Column(name = "gone_out", nullable = false)
     private byte goneOut;
-    @OneToOne
-    @JoinColumn(name = "id_user", referencedColumnName = "id_user", nullable = false)
+
+    @OneToOne(orphanRemoval = true)
+    @JoinTable(name = "employe_userByIdUser",
+            joinColumns = @JoinColumn(name = "employeEntity_id_user"),
+            inverseJoinColumns = @JoinColumn(name = "userByIdUser_id_user"))
     private UserEntity userByIdUser;
+
+    public UserEntity getUserByIdUser() {
+        return userByIdUser;
+    }
+
+    public void setUserByIdUser(UserEntity userByIdUser) {
+        this.userByIdUser = userByIdUser;
+    }
 
     public long getIdUser() {
         return idUser;
@@ -64,13 +75,5 @@ public class EmployeEntity {
         result = 31 * result + (entryDate != null ? entryDate.hashCode() : 0);
         result = 31 * result + (int) goneOut;
         return result;
-    }
-
-    public UserEntity getUserByIdUser() {
-        return userByIdUser;
-    }
-
-    public void setUserByIdUser(UserEntity userByIdUser) {
-        this.userByIdUser = userByIdUser;
     }
 }

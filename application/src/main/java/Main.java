@@ -1,7 +1,12 @@
-import models.Admin;
+import DAO.implementation.RoleDaoImpl;
+import DAO.interfaces.RoleDao;
+import models.Role;
 
 public class Main {
     public static void main(String[]args){
-        System.out.println(new Admin().toString());
+        Role role = new Role();
+        role.setName("user");
+        RoleDao roleDao = new RoleDaoImpl();
+        roleDao.add(role);
     }
 }

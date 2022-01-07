@@ -27,16 +27,19 @@ public class UserEntity {
     @Basic
     @Column(name = "id_address", nullable = false)
     private long idAddress;
+
+
+
     @OneToOne(mappedBy = "userByIdUser")
     private AdminEntity adminByIdUser;
     @OneToOne(mappedBy = "userByIdUser")
     private EmployeEntity employeByIdUser;
-    @ManyToOne
-    @JoinColumn(name = "id_role", referencedColumnName = "id_role", nullable = false)
-    private RoleEntity roleByIdRole;
-    @ManyToOne
-    @JoinColumn(name = "id_address", referencedColumnName = "id_address", nullable = false)
-    private AddressEntity addressByIdAddress;
+    //@ManyToOne
+    //@JoinColumn(name = "id_role", referencedColumnName = "id_role", nullable = false)
+    //private RoleEntity roleByIdRole;
+    //@ManyToOne
+    //@JoinColumn(name = "id_address", referencedColumnName = "id_address", nullable = false)
+    //private AddressEntity addressByIdAddress;
 
     public long getIdUser() {
         return idUser;
@@ -140,19 +143,19 @@ public class UserEntity {
         this.employeByIdUser = employeByIdUser;
     }
 
-    public RoleEntity getRoleByIdRole() {
+    /*public RoleEntity getRoleByIdRole() {
         return roleByIdRole;
     }
 
     public void setRoleByIdRole(RoleEntity roleByIdRole) {
         this.roleByIdRole = roleByIdRole;
-    }
+    }*/
 
-    public AddressEntity getAddressByIdAddress() {
+    /*public AddressEntity getAddressByIdAddress() {
         return addressByIdAddress;
-    }
+    }*/
 
-    public void setAddressByIdAddress(AddressEntity addressByIdAddress) {
+    /*public void setAddressByIdAddress(AddressEntity addressByIdAddress) {
         this.addressByIdAddress = addressByIdAddress;
-    }
+    }*/
 }
