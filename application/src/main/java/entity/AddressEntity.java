@@ -1,27 +1,26 @@
 package entity;
 
-import javax.persistence.Basic;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Table(name = "address", schema = "gestion_employe", catalog = "")
 public class AddressEntity {
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Basic
-    @Column(name = "id_address")
+    @Id
+    @Column(name = "id_address",nullable = false)
     private long idAddress;
     @Basic
-    @Column(name = "street")
+    @Column(name = "street", nullable = false, length = -1)
     private String street;
     @Basic
-    @Column(name = "city")
+    @Column(name = "city", nullable = false, length = 50)
     private String city;
     @Basic
-    @Column(name = "country")
+    @Column(name = "country", nullable = false, length = 50)
     private String country;
     @Basic
-    @Column(name = "postal_code")
+    @Column(name = "postal_code", nullable = false)
     private int postalCode;
 
     public long getIdAddress() {

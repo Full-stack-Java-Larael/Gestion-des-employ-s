@@ -7,7 +7,7 @@ import javax.persistence.*;
 public class AdminEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Id
-    @Column(name = "id_user")
+    @Column(name = "id_user", nullable = false)
     private long idUser;
     @OneToOne
     @JoinColumn(name = "id_user", referencedColumnName = "id_user", nullable = false)

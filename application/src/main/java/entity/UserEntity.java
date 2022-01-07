@@ -7,30 +7,36 @@ import javax.persistence.*;
 public class UserEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Id
-    @Column(name = "id_user")
+    @Column(name = "id_user", nullable = false)
     private long idUser;
     @Basic
-    @Column(name = "first_name")
+    @Column(name = "first_name", nullable = false, length = 45)
     private String firstName;
     @Basic
-    @Column(name = "last_name")
+    @Column(name = "last_name", nullable = false, length = 45)
     private String lastName;
     @Basic
-    @Column(name = "email")
+    @Column(name = "email", nullable = false, length = 150)
     private String email;
     @Basic
-    @Column(name = "password")
+    @Column(name = "password", nullable = false, length = -1)
     private String password;
     @Basic
-    @Column(name = "id_role")
+    @Column(name = "id_role", nullable = false)
     private long idRole;
     @Basic
-    @Column(name = "id_address")
+    @Column(name = "id_address", nullable = false)
     private long idAddress;
     @OneToOne(mappedBy = "userByIdUser")
     private AdminEntity adminByIdUser;
     @OneToOne(mappedBy = "userByIdUser")
     private EmployeEntity employeByIdUser;
+    @ManyToOne
+    @JoinColumn(name = "id_role", referencedColumnName = "id_role", nullable = false)
+    private RoleEntity roleByIdRole;
+    @ManyToOne
+    @JoinColumn(name = "id_address", referencedColumnName = "id_address", nullable = false)
+    private AddressEntity addressByIdAddress;
 
     public long getIdUser() {
         return idUser;
@@ -132,5 +138,21 @@ public class UserEntity {
 
     public void setEmployeByIdUser(EmployeEntity employeByIdUser) {
         this.employeByIdUser = employeByIdUser;
+    }
+
+    public RoleEntity getRoleByIdRole() {
+        return roleByIdRole;
+    }
+
+    public void setRoleByIdRole(RoleEntity roleByIdRole) {
+        this.roleByIdRole = roleByIdRole;
+    }
+
+    public AddressEntity getAddressByIdAddress() {
+        return addressByIdAddress;
+    }
+
+    public void setAddressByIdAddress(AddressEntity addressByIdAddress) {
+        this.addressByIdAddress = addressByIdAddress;
     }
 }

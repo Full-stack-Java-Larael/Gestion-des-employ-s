@@ -7,10 +7,10 @@ import javax.persistence.*;
 public class RoleEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Id
-    @Column(name = "id_role")
+    @Column(name = "id_role", nullable = false)
     private long idRole;
     @Basic
-    @Column(name = "name")
+    @Column(name = "name", nullable = false, length = 45)
     private String name;
 
     public long getIdRole() {

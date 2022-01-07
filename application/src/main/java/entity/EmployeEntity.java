@@ -8,13 +8,13 @@ import java.sql.Date;
 public class EmployeEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Id
-    @Column(name = "id_user")
+    @Column(name = "id_user", nullable = false)
     private long idUser;
     @Basic
-    @Column(name = "entry_date")
+    @Column(name = "entry_date", nullable = false)
     private Date entryDate;
     @Basic
-    @Column(name = "gone_out")
+    @Column(name = "gone_out", nullable = false)
     private byte goneOut;
     @OneToOne
     @JoinColumn(name = "id_user", referencedColumnName = "id_user", nullable = false)
