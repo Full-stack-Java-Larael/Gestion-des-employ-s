@@ -2,6 +2,13 @@ package models;
 
 public class User {
     private int id_user;
+    private String first_name;
+    private String last_name;
+    private String email;
+    private String password;
+    private Role role;
+    private Address address;
+
 
     public int getId_user() {
         return id_user;
@@ -59,10 +66,16 @@ public class User {
         this.address = address;
     }
 
-    private String first_name;
-    private String last_name;
-    private String email;
-    private String password;
-    private Role role;
-    private Address address;
+    @Override
+    public String toString() {
+        return "User{" +
+                "id_user=" + id_user +
+                ", first_name='" + first_name + '\'' +
+                ", last_name='" + last_name + '\'' +
+                ", email='" + email + '\'' +
+                ", password='" + password + '\'' +
+                ", role=" + role +
+                ", address=" + address +
+                '}';
+    }
 }
