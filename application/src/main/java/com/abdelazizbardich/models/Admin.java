@@ -1,4 +1,4 @@
-package models;
+package com.abdelazizbardich.models;
 
 public class Admin extends User{
     @Override

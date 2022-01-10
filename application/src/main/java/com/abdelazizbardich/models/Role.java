@@ -1,14 +1,14 @@
-package models;
+package com.abdelazizbardich.models;
 
 public class Role {
-    private int idRole;
+    private long idRole;
     private String name;
 
-    public int getIdRole() {
+    public long getIdRole() {
         return idRole;
     }
 
-    public void setIdRole(int idRole) {
+    public void setIdRole(long idRole) {
         this.idRole = idRole;
     }
 

@@ -1,4 +1,4 @@
-package models;
+package com.abdelazizbardich.models;
 
 import java.sql.Date;
 

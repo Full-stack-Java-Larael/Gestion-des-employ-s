@@ -1,13 +1,15 @@
-package DAO.interfaces;
+package com.abdelazizbardich.DAO.interfaces;
 
 
-import models.Role;
+import com.abdelazizbardich.models.Role;
+
+import java.util.ArrayList;
 import java.util.List;
 
 public interface RoleDao {
     Role add(Role role);
     Role find(long id);
-    List<Role> getAll();
+    ArrayList<Role> getAll();
     Role update(Role role);
     boolean delete(long id);
 }

@@ -10,17 +10,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1946ecf6-329a-402a-bcba-7edee72db58c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/hibernate/HSessionFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion employee.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion employee.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/DAO/implementation/AddressDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/DAO/implementation/AddressDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/DAO/implementation/AdminDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/DAO/implementation/AdminDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/DAO/implementation/EmployeDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/DAO/implementation/EmployeDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/DAO/implementation/RoleDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/DAO/implementation/RoleDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/DAO/implementation/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/DAO/implementation/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/DAO/interfaces/AddressDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/DAO/interfaces/AddressDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/DAO/interfaces/AdminDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/DAO/interfaces/AdminDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/DAO/interfaces/EmployeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/DAO/interfaces/EmployeDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/DAO/interfaces/RoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/DAO/interfaces/RoleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/DAO/interfaces/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/DAO/interfaces/UserDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/entities/AddressEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/entities/AddressEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/entities/RoleEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/entities/RoleEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/abdelazizbardich-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/abdelazizbardich-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/abdelazizbardich-1.0-SNAPSHOT/WEB-INF/classes/META-INF/hibernate.cfg.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/abdelazizbardich-1.0-SNAPSHOT/WEB-INF/classes/com/abdelazizbardich/entities/UserEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/abdelazizbardich-1.0-SNAPSHOT/WEB-INF/classes/com/abdelazizbardich/entities/UserEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/models/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/models/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/models/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/models/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/models/Employe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/models/Employe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/models/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/models/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/abdelazizbardich/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abdelazizbardich/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,7 +228,7 @@
       <workItem from="1641810512440" duration="5058000" />
       <workItem from="1641820654008" duration="896000" />
       <workItem from="1641827270870" duration="145000" />
-      <workItem from="1641843160736" duration="1240000" />
+      <workItem from="1641843160736" duration="7120000" />
     </task>
     <servers />
   </component>

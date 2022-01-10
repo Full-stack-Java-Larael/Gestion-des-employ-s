@@ -1,7 +1,7 @@
-package DAO.implementation;
+package com.abdelazizbardich.DAO.implementation;
 
-import DAO.interfaces.AdminDao;
-import models.Admin;
+import com.abdelazizbardich.DAO.interfaces.AdminDao;
+import com.abdelazizbardich.models.Admin;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,4 @@
-package models;
+package com.abdelazizbardich.models;
 
 public class Address {
     private int id_address;

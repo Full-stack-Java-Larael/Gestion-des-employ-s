@@ -1,10 +1,9 @@
-package DAO.implementation;
+package com.abdelazizbardich.DAO.implementation;
 
-import DAO.interfaces.AddressDao;
-import models.Address;
+import com.abdelazizbardich.DAO.interfaces.AddressDao;
+import com.abdelazizbardich.models.Address;
 
 import java.util.ArrayList;
-
 
 public class AddressDaoImpl implements AddressDao {
     @Override

@@ -1,7 +1,7 @@
-package DAO.implementation;
+package com.abdelazizbardich.DAO.implementation;
 
-import DAO.interfaces.EmployeDao;
-import models.Employe;
+import com.abdelazizbardich.DAO.interfaces.EmployeDao;
+import com.abdelazizbardich.models.Employe;
 
 import java.util.ArrayList;
 
