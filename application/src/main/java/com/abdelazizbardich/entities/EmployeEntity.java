@@ -1,24 +1,14 @@
-package entities;
+package com.abdelazizbardich.entities;
 
 import javax.persistence.*;
 import java.sql.Date;
 
 @Entity(name = "employe")
 public class EmployeEntity extends UserEntity{
-    public UserEntity getUser() {
-        return user;
-    }
-
-    public void setUser(UserEntity user) {
-        this.user = user;
-    }
-
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id_user", nullable = false)
-    @OneToOne
-    @JoinColumn(name = "id_user", referencedColumnName = "id_user")
-    private UserEntity user;
+    private long idUser;
 
     @Column(name = "entry_date")
     private Date entryDate;

@@ -4,6 +4,18 @@
              xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd"
              version="2.2">
     <persistence-unit name="default">
-
+        <class>com.abdelazizbardich.entities.AddressEntity</class>
+        <class>com.abdelazizbardich.entities.AdminEntity</class>
+        <class>com.abdelazizbardich.entities.EmployeEntity</class>
+        <class>com.abdelazizbardich.entities.RoleEntity</class>
+        <class>com.abdelazizbardich.entities.UserEntity</class>
+        <properties>
+            <property name="hibernate.hbm2ddl.auto" value="create"/>
+            <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/gestion_employe"/>
+            <property name="hibernate.connection.driver_class" value="com.mysql.cj.jdbc.Driver"/>
+            <property name="hibernate.connection.username" value="root"/>
+            <property name="hibernate.connection.password" value=""/>
+            <property name="hibernate.show_sql" value="true"/>
+        </properties>
     </persistence-unit>
 </persistence>

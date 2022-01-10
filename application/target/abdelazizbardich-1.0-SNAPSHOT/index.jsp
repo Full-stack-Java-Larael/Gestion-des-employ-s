@@ -3,16 +3,11 @@
 <html>
 <head>
     <title>JSP - Hello World</title>
-    <style>
-        body{
-            background:red;
-        }
-    </style>
 </head>
 <body>
 <h1><%= "Hello Worwwld!" %>
 </h1>
 <br/>
-<a href="hello-servlet">Hsello Servlet</a>
+<a href="hello-servlet">Hello Saad</a>
 </body>
 </html>

@@ -1,4 +1,4 @@
-package entities;
+package com.abdelazizbardich.entities;
 
 
 import javax.persistence.*;
@@ -8,15 +8,6 @@ public class AdminEntity extends UserEntity{
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id_user", nullable = false)
-    @OneToOne
-    @JoinColumn(name = "id_user", referencedColumnName = "id_user")
-    private UserEntity user;
+    private long idUser;
 
-    public UserEntity getUser() {
-        return user;
-    }
-
-    public void setUser(UserEntity user) {
-        this.user = user;
-    }
 }

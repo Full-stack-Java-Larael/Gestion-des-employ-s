@@ -1,12 +1,11 @@
-package entities;
+package com.abdelazizbardich.entities;
 
-
-import models.Address;
 
 import javax.persistence.*;
 import javax.validation.constraints.Email;
 
 @Entity(name = "user")
+@Inheritance(strategy = InheritanceType.JOINED)
 public class UserEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -26,13 +25,13 @@ public class UserEntity {
     @Column(name = "password")
     private String password;
 
-    @Column(name = "id_role")
+//    @Column(name = "id_role")
     @OneToOne(optional = false)
     @JoinColumn(name = "id_role", referencedColumnName = "id_role")
     private RoleEntity role;
 
 
-    @Column(name = "id_address")
+//    @Column(name = "id_address")
     @OneToOne(optional = false)
     @JoinColumn(name = "id_address", referencedColumnName = "id_address")
     private AddressEntity address;
