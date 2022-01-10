@@ -4,17 +4,19 @@ package entities;
 import javax.persistence.*;
 
 @Entity(name = "Admin")
-public class AdminEntity {
+public class AdminEntity extends UserEntity{
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id_user", nullable = false)
-    private Long id_user;
+    @OneToOne
+    @JoinColumn(name = "id_user", referencedColumnName = "id_user")
+    private UserEntity user;
 
-    public Long getId_user() {
-        return id_user;
+    public UserEntity getUser() {
+        return user;
     }
 
-    public void setId_user(Long id_user) {
-        this.id_user = id_user;
+    public void setUser(UserEntity user) {
+        this.user = user;
     }
 }

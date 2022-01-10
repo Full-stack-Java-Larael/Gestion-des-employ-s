@@ -5,10 +5,20 @@ import java.sql.Date;
 
 @Entity(name = "employe")
 public class EmployeEntity extends UserEntity{
+    public UserEntity getUser() {
+        return user;
+    }
+
+    public void setUser(UserEntity user) {
+        this.user = user;
+    }
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id_user", nullable = false)
-    private Long id_user;
+    @OneToOne
+    @JoinColumn(name = "id_user", referencedColumnName = "id_user")
+    private UserEntity user;
 
     @Column(name = "entry_date")
     private Date entryDate;
@@ -16,15 +26,6 @@ public class EmployeEntity extends UserEntity{
     @Column(name = "gone_out")
     private boolean goneOut;
 
-    @Override
-    public Long getId_user() {
-        return id_user;
-    }
-
-    @Override
-    public void setId_user(Long id_user) {
-        this.id_user = id_user;
-    }
 
     public Date getEntryDate() {
         return entryDate;

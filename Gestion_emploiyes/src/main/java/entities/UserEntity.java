@@ -1,9 +1,12 @@
 package entities;
 
+
+import models.Address;
+
 import javax.persistence.*;
 import javax.validation.constraints.Email;
 
-@Entity(name = "User")
+@Entity(name = "user")
 public class UserEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -24,10 +27,15 @@ public class UserEntity {
     private String password;
 
     @Column(name = "id_role")
-    private long idRole;
+    @OneToOne(optional = false)
+    @JoinColumn(name = "id_role", referencedColumnName = "id_role")
+    private RoleEntity role;
+
 
     @Column(name = "id_address")
-    private long idAddress;
+    @OneToOne(optional = false)
+    @JoinColumn(name = "id_address", referencedColumnName = "id_address")
+    private AddressEntity address;
 
     public Long getIdUser() {
         return idUser;
@@ -69,19 +77,19 @@ public class UserEntity {
         this.password = password;
     }
 
-    public long getIdRole() {
-        return idRole;
+    public RoleEntity getRole() {
+        return role;
     }
 
-    public void setIdRole(long idRole) {
-        this.idRole = idRole;
+    public void setRole(RoleEntity role) {
+        this.role = role;
     }
 
-    public long getIdAddress() {
-        return idAddress;
+    public AddressEntity getAddress() {
+        return address;
     }
 
-    public void setIdAddress(long idAddress) {
-        this.idAddress = idAddress;
+    public void setAddress(AddressEntity address) {
+        this.address = address;
     }
 }
