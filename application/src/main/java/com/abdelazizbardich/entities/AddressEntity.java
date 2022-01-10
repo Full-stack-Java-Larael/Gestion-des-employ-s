@@ -1,13 +1,12 @@
 package com.abdelazizbardich.entities;
 
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity(name = "address")
 public class AddressEntity {
     @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id_address", nullable = false)
     private Long idAddress;
 

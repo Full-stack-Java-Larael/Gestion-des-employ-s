@@ -18,7 +18,7 @@
         <property name="dialect">org.hibernate.dialect.MySQL8Dialect</property>
 <!--        <property name="current_session_context_class">thread</property>-->
 <!--&lt;!&ndash;        <property name="show_sql">true</property>&ndash;&gt;-->
-        <property name="format_sql">true</property>
+        <property name="format_sql">false</property>
         <property name="hbm2ddl.auto">update</property>
         <mapping class="com.abdelazizbardich.entities.UserEntity"/>
         <mapping class="com.abdelazizbardich.entities.EmployeEntity"/>
