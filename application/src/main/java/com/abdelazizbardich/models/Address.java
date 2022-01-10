@@ -1,17 +1,17 @@
 package com.abdelazizbardich.models;
 
 public class Address {
-    private int id_address;
+    private long id_address;
     private String street;
     private String city;
     private String country;
     private int postal_code;
 
-    public int getId_address() {
+    public long getId_address() {
         return id_address;
     }
 
-    public void setId_address(int id_address) {
+    public void setId_address(long id_address) {
         this.id_address = id_address;
     }
 
