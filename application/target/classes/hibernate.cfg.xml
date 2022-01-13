@@ -20,10 +20,10 @@
 <!--&lt;!&ndash;        <property name="show_sql">true</property>&ndash;&gt;-->
         <property name="format_sql">true</property>
         <property name="hbm2ddl.auto">update</property>
-        <mapping class="com.abdelazizbardich.entities.UserEntity"/>
-        <mapping class="com.abdelazizbardich.entities.EmployeEntity"/>
-        <mapping class="com.abdelazizbardich.entities.AdminEntity"/>
-        <mapping class="com.abdelazizbardich.entities.AddressEntity"/>
-        <mapping class="com.abdelazizbardich.entities.RoleEntity"/>
+        <mapping class="com.abdelazizbardich.entities.User"/>
+        <mapping class="com.abdelazizbardich.entities.Employe"/>
+        <mapping class="com.abdelazizbardich.entities.Admin"/>
+        <mapping class="com.abdelazizbardich.entities.Address"/>
+        <mapping class="com.abdelazizbardich.entities.Role"/>
     </session-factory>
 </hibernate-configuration>

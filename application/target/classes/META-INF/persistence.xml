@@ -4,11 +4,11 @@
              xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd"
              version="2.2">
     <persistence-unit name="default">
-        <class>com.abdelazizbardich.entities.AddressEntity</class>
-        <class>com.abdelazizbardich.entities.AdminEntity</class>
-        <class>com.abdelazizbardich.entities.EmployeEntity</class>
-        <class>com.abdelazizbardich.entities.RoleEntity</class>
-        <class>com.abdelazizbardich.entities.UserEntity</class>
+        <class>com.abdelazizbardich.entities.Address</class>
+        <class>com.abdelazizbardich.entities.Admin</class>
+        <class>com.abdelazizbardich.entities.Employe</class>
+        <class>com.abdelazizbardich.entities.Role</class>
+        <class>com.abdelazizbardich.entities.User</class>
         <properties>
             <property name="hibernate.hbm2ddl.auto" value="create"/>
             <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/gestion_employe"/>

@@ -4,10 +4,11 @@ import javax.persistence.*;
 import java.sql.Date;
 
 @Entity(name = "employe")
-public class EmployeEntity extends UserEntity{
+@PrimaryKeyJoinColumn(foreignKey=@ForeignKey(name = "id_user_emp"))
+public class Employe extends User {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name = "id_user", nullable = false)
+    @Column(name = "id_emp", nullable = false)
     private long idUser;
 
     @Column(name = "entry_date")

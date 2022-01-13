@@ -1,6 +1,6 @@
 package com.abdelazizbardich.DAO.interfaces;
 
-import com.abdelazizbardich.models.Admin;
+import com.abdelazizbardich.entities.Admin;
 
 import java.util.ArrayList;
 

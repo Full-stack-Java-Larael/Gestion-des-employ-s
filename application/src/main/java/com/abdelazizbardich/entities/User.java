@@ -6,7 +6,7 @@ import javax.validation.constraints.Email;
 
 @Entity(name = "user")
 @Inheritance(strategy = InheritanceType.JOINED)
-public class UserEntity {
+public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id_user", nullable = false)
@@ -25,16 +25,13 @@ public class UserEntity {
     @Column(name = "password")
     private String password;
 
-//    @Column(name = "id_role")
     @OneToOne(optional = false)
     @JoinColumn(name = "id_role", referencedColumnName = "id_role")
-    private RoleEntity role;
+    private Role role;
 
-
-//    @Column(name = "id_address")
     @OneToOne(optional = false)
     @JoinColumn(name = "id_address", referencedColumnName = "id_address")
-    private AddressEntity address;
+    private Address address;
 
     public Long getIdUser() {
         return idUser;
@@ -76,19 +73,19 @@ public class UserEntity {
         this.password = password;
     }
 
-    public RoleEntity getRole() {
+    public Role getRole() {
         return role;
     }
 
-    public void setRole(RoleEntity role) {
+    public void setRole(Role role) {
         this.role = role;
     }
 
-    public AddressEntity getAddress() {
+    public Address getAddress() {
         return address;
     }
 
-    public void setAddress(AddressEntity address) {
+    public void setAddress(Address address) {
         this.address = address;
     }
 }

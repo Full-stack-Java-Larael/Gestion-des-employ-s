@@ -1,7 +1,7 @@
 package com.abdelazizbardich.DAO.interfaces;
 
 
-import com.abdelazizbardich.models.Role;
+import com.abdelazizbardich.entities.Role;
 
 import java.util.ArrayList;
 import java.util.List;

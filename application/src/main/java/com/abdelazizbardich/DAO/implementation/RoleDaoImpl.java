@@ -1,9 +1,8 @@
 package com.abdelazizbardich.DAO.implementation;
 
 import com.abdelazizbardich.DAO.interfaces.RoleDao;
-import com.abdelazizbardich.entities.RoleEntity;
+import com.abdelazizbardich.entities.Role;
 import com.abdelazizbardich.hibernate.HSessionFactory;
-import com.abdelazizbardich.models.Role;
 import org.hibernate.Session;
 
 import java.util.ArrayList;
@@ -12,14 +11,12 @@ public class RoleDaoImpl implements RoleDao {
 
     @Override
     public Role add(Role role) {
+
         Session session = HSessionFactory.getInstance().getSession().openSession();
         session.beginTransaction();
-        RoleEntity roleEntity = new RoleEntity();
-        roleEntity.setName(role.getName());
-        session.save(roleEntity);
+        session.save(role);
         session.getTransaction().commit();
         session.close();
-        role.setIdRole(roleEntity.getId_role());
         return role;
     }
 
@@ -27,11 +24,8 @@ public class RoleDaoImpl implements RoleDao {
     public Role find(long id) {
         Session session = HSessionFactory.getInstance().getSession().openSession();
         session.beginTransaction();
-        RoleEntity roleEntity = (RoleEntity) session.get(RoleEntity.class,id);
+        Role role = session.get(Role.class,id);
         session.close();
-        Role role = new Role();
-        role.setIdRole(roleEntity.getId_role());
-        role.setName(roleEntity.getName());
         return role;
     }
 
@@ -39,14 +33,7 @@ public class RoleDaoImpl implements RoleDao {
     public ArrayList<Role> getAll() {
         Session session = HSessionFactory.getInstance().getSession().openSession();
         session.beginTransaction();
-        ArrayList<RoleEntity> roleEntities = (ArrayList<RoleEntity>) session.createCriteria(RoleEntity.class).list();
-        ArrayList<Role> roles = new ArrayList<Role>();
-        for (int i=0;i < roleEntities.size();i++){
-            Role role = new Role();
-            role.setIdRole(roleEntities.get(i).getId_role());
-            role.setName(roleEntities.get(i).getName());
-            roles.add(role);
-        }
+        ArrayList<Role> roles = (ArrayList<Role>) session.createCriteria(Role.class).list();
         session.close();
         return roles;
     }
@@ -55,11 +42,8 @@ public class RoleDaoImpl implements RoleDao {
     public Role update(Role role) {
         Session session = HSessionFactory.getInstance().getSession().openSession();
         session.beginTransaction();
-        session.find(RoleEntity.class,role.getIdRole());
-        RoleEntity roleEntity = new RoleEntity();
-        roleEntity.setId_role(role.getIdRole());
-        roleEntity.setName(role.getName());
-        session.merge(roleEntity);
+        session.find(Role.class,role.getId_role());
+        session.merge(role);
         session.getTransaction().commit();
         session.close();
         return role;
@@ -69,7 +53,7 @@ public class RoleDaoImpl implements RoleDao {
     public boolean delete(long id) {
         Session session = HSessionFactory.getInstance().getSession().openSession();
         session.beginTransaction();
-        RoleEntity roleEntity = session.load(RoleEntity.class,id);
+        Role roleEntity = session.load(Role.class,id);
         session.delete(roleEntity);
         session.getTransaction().commit();
         return true;

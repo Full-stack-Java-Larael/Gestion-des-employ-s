@@ -4,7 +4,7 @@ package com.abdelazizbardich.entities;
 import javax.persistence.*;
 
 @Entity(name = "address")
-public class AddressEntity {
+public class Address {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id_address", nullable = false)

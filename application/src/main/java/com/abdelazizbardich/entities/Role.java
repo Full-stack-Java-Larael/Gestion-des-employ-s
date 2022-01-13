@@ -3,7 +3,7 @@ package com.abdelazizbardich.entities;
 import javax.persistence.*;
 
 @Entity(name = "role")
-public class RoleEntity {
+public class Role {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id_role", nullable = false)

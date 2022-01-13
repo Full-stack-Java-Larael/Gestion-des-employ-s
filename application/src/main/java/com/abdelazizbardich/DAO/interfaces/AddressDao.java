@@ -1,7 +1,7 @@
 package com.abdelazizbardich.DAO.interfaces;
 
 
-import com.abdelazizbardich.models.Address;
+import com.abdelazizbardich.entities.Address;
 
 import java.util.ArrayList;
 
