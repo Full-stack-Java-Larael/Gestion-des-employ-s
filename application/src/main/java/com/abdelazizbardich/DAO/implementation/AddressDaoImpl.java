@@ -5,14 +5,14 @@ import com.abdelazizbardich.entities.Address;
 import com.abdelazizbardich.hibernate.HSessionFactory;
 import org.hibernate.Session;
 
-import java.util.ArrayList;
+import java.util.List;
 
 public class AddressDaoImpl implements AddressDao {
     @Override
     public Address add(Address address) {
         Session session = HSessionFactory.getInstance().getSession().openSession();
         session.beginTransaction();
-        session.save(add(address));
+        session.save(address);
         session.getTransaction().commit();
         session.close();
         return address;
@@ -29,11 +29,10 @@ public class AddressDaoImpl implements AddressDao {
     }
 
     @Override
-    public ArrayList<Address> getAll() {
+    public List<Address> getAll() {
         Session session = HSessionFactory.getInstance().getSession().openSession();
         session.beginTransaction();
-        ArrayList<Address> addresss = (ArrayList<Address>) session.createCriteria(Address.class).list();
-
+        List<Address> addresss = session.createCriteria(Address.class).list();
         session.close();
         return addresss;
     }

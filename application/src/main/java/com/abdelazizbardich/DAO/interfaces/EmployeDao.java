@@ -2,13 +2,13 @@ package com.abdelazizbardich.DAO.interfaces;
 
 import com.abdelazizbardich.entities.Employe;
 
-import java.util.ArrayList;
+import java.util.List;
 
 public interface EmployeDao {
-    boolean setAsGoneOut();
+    boolean setAsGoneOut(long id);
     Employe add(Employe employe);
     Employe find(long id);
-    ArrayList<Employe> getAll(long id);
+    List<Employe> getAll();
     Employe update(Employe employe);
     boolean delete(long id);
 }

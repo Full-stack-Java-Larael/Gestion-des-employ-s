@@ -61,4 +61,15 @@ public class Address {
 
     @Column(name = "prostal_code")
     private int postalCode;
+
+    @Override
+    public String toString() {
+        return "Address{" +
+                "idAddress=" + idAddress +
+                ", street='" + street + '\'' +
+                ", city='" + city + '\'' +
+                ", country='" + country + '\'' +
+                ", postalCode=" + postalCode +
+                '}';
+    }
 }

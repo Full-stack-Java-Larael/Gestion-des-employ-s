@@ -3,6 +3,7 @@ package com.abdelazizbardich.entities;
 
 import javax.persistence.*;
 import javax.validation.constraints.Email;
+import java.util.Set;
 
 @Entity(name = "user")
 @Inheritance(strategy = InheritanceType.JOINED)
@@ -25,16 +26,24 @@ public class User {
     @Column(name = "password")
     private String password;
 
-    @OneToOne(optional = false)
-    @JoinColumn(name = "id_role", referencedColumnName = "id_role")
+    @OneToOne(cascade = CascadeType.REFRESH, fetch = FetchType.LAZY)
+    @JoinColumn(name = "id_role",unique = false,referencedColumnName = "id_role")
     private Role role;
 
-    @OneToOne(optional = false)
-    @JoinColumn(name = "id_address", referencedColumnName = "id_address")
+    public Role getRole() {
+        return role;
+    }
+
+    public void setRole(Role role) {
+        this.role = role;
+    }
+
+    @OneToOne(cascade = CascadeType.REFRESH, fetch = FetchType.LAZY)
+    @JoinColumn(name = "id_address",unique = false, referencedColumnName = "id_address")
     private Address address;
 
     public Long getIdUser() {
-        return idUser;
+        return this.idUser;
     }
 
     public void setIdUser(Long idUser) {
@@ -73,19 +82,24 @@ public class User {
         this.password = password;
     }
 
-    public Role getRole() {
-        return role;
-    }
-
-    public void setRole(Role role) {
-        this.role = role;
-    }
-
     public Address getAddress() {
         return address;
     }
 
     public void setAddress(Address address) {
         this.address = address;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "idUser=" + idUser +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", email='" + email + '\'' +
+                ", password='" + password + '\'' +
+                ", role=" + role +
+                ", address=" + address +
+                '}';
     }
 }

@@ -6,10 +6,6 @@ import java.sql.Date;
 @Entity(name = "employe")
 @PrimaryKeyJoinColumn(foreignKey=@ForeignKey(name = "id_user_emp"))
 public class Employe extends User {
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name = "id_emp", nullable = false)
-    private long idUser;
 
     @Column(name = "entry_date")
     private Date entryDate;
@@ -32,5 +28,13 @@ public class Employe extends User {
 
     public void setGoneOut(boolean goneOut) {
         this.goneOut = goneOut;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString()+"Employe{" +
+                ", entryDate=" + entryDate +
+                ", goneOut=" + goneOut +
+                '}';
     }
 }

@@ -1,7 +1,6 @@
 package com.abdelazizbardich.entities;
 
 import javax.persistence.*;
-
 @Entity(name = "role")
 public class Role {
     @Id
@@ -27,4 +26,12 @@ public class Role {
 
     @Column(name = "name")
     private String name;
+
+    @Override
+    public String toString() {
+        return "Role{" +
+                "id_role=" + id_role +
+                ", name='" + name + '\'' +
+                '}';
+    }
 }

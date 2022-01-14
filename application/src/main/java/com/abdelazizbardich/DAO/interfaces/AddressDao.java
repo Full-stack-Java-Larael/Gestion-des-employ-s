@@ -3,12 +3,12 @@ package com.abdelazizbardich.DAO.interfaces;
 
 import com.abdelazizbardich.entities.Address;
 
-import java.util.ArrayList;
+import java.util.List;
 
 public interface AddressDao {
     Address add(Address address);
     Address find(long id);
-    ArrayList<Address> getAll();
+    List<Address> getAll();
     Address update(Address address);
     boolean delete(long id);
 }

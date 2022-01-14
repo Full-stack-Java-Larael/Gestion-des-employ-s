@@ -3,11 +3,11 @@ package com.abdelazizbardich.DAO.implementation;
 import com.abdelazizbardich.DAO.interfaces.AdminDao;
 import com.abdelazizbardich.entities.Address;
 import com.abdelazizbardich.entities.Admin;
-import com.abdelazizbardich.entities.Role;
 import com.abdelazizbardich.hibernate.HSessionFactory;
 import org.hibernate.Session;
 
-import java.util.ArrayList;
+import java.util.List;
+
 
 public class AdminDaoImpl implements AdminDao {
     @Override
@@ -24,26 +24,35 @@ public class AdminDaoImpl implements AdminDao {
     public Admin find(long id) {
         Session session = HSessionFactory.getInstance().getSession().openSession();
         session.beginTransaction();
-        Admin admin = (Admin) session.find(Admin.class,id);
+        Admin admin = session.find(Admin.class,id);
         session.close();
         return admin;
     }
 
     @Override
-    public ArrayList<AdminDao> getAll(long id) {
-        return null;
+    public List<Admin> getAll() {
+        Session session = HSessionFactory.getInstance().getSession().openSession();
+        session.beginTransaction();
+        List<Admin> admins = session.createCriteria(Admin.class).list();
+        session.close();
+        return admins;
     }
 
     @Override
     public Admin update(Admin admin) {
-        return null;
+        Session session = HSessionFactory.getInstance().getSession().openSession();
+        session.beginTransaction();
+        session.merge(admin);
+        session.getTransaction().commit();
+        session.close();
+        return admin;
     }
 
     @Override
     public boolean delete(long id) {
         Session session = HSessionFactory.getInstance().getSession().openSession();
         session.beginTransaction();
-        Admin admin = session.load(Admin.class,id);
+        Admin admin = session.find(Admin.class,id);
         session.delete(admin);
         session.getTransaction().commit();
         return true;
