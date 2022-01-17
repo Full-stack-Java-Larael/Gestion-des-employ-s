@@ -1,10 +1,9 @@
 package com.abdelazizbardich.DAO.implementation;
-
 import com.abdelazizbardich.DAO.interfaces.AdminDao;
-import com.abdelazizbardich.entities.Address;
 import com.abdelazizbardich.entities.Admin;
 import com.abdelazizbardich.hibernate.HSessionFactory;
 import org.hibernate.Session;
+import org.hibernate.query.Query;
 
 import java.util.List;
 
@@ -25,6 +24,22 @@ public class AdminDaoImpl implements AdminDao {
         Session session = HSessionFactory.getInstance().getSession().openSession();
         session.beginTransaction();
         Admin admin = session.find(Admin.class,id);
+        session.close();
+        return admin;
+    }
+
+    @Override
+    public Admin findByEmail(String email){
+        Session session = HSessionFactory.getInstance().getSession().openSession();
+        session.beginTransaction();
+        List results = session.createQuery("SELECT password FROM user where email = :email")
+                .setParameter("email", email)
+                .setMaxResults(1).list();
+        if(results.size()==0){
+            return null;
+        }
+        Admin admin = new Admin();
+        admin.setPassword(results.get(0).toString());
         session.close();
         return admin;
     }
@@ -53,6 +68,7 @@ public class AdminDaoImpl implements AdminDao {
         Session session = HSessionFactory.getInstance().getSession().openSession();
         session.beginTransaction();
         Admin admin = session.find(Admin.class,id);
+        System.out.println(admin);
         session.delete(admin);
         session.getTransaction().commit();
         return true;

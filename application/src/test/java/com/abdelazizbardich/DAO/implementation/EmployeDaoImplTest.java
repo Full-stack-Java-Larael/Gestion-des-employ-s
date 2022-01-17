@@ -33,7 +33,9 @@ class EmployeDaoImplTest {
         employe.setEntryDate(new Date(2022,1,14));
         employe.setAddress(new AddressDaoImpl().getAll().get(0));
         employe.setRole(new RoleDaoImpl().getAll().get(0));
-        employe = new EmployeDaoImpl().add(new Employe());
+        employe.setGoneOut(false);
+        employe.setEntryDate(new Date(2022,12,22));
+        employe = new EmployeDaoImpl().add(employe);
         assertInstanceOf(Employe.class,employe);
         id = employe.getIdUser();
     }
@@ -62,6 +64,8 @@ class EmployeDaoImplTest {
         employe.setEntryDate(new Date(2022,1,14));
         employe.setAddress(new AddressDaoImpl().getAll().get(0));
         employe.setRole(new RoleDaoImpl().getAll().get(0));
+        employe.setGoneOut(false);
+        employe.setEntryDate(new Date(2022,12,22));
         assertInstanceOf(Employe.class,new EmployeDaoImpl().update(employe));
     }
 

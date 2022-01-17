@@ -11,4 +11,7 @@ public interface AdminService {
     List<Admin> getAll();
     Admin update(Admin admin);
     boolean delete(long id);
+
+    boolean login(String email,String password);
+    boolean changePassword(String olPassword,String newPassword);
 }

@@ -4,7 +4,6 @@ package com.abdelazizbardich.DAO.interfaces;
 import com.abdelazizbardich.entities.Role;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public interface RoleDao {
     Role add(Role role);

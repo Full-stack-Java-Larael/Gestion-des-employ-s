@@ -34,4 +34,20 @@ public class AdminServiceImpl implements AdminService {
     public boolean delete(long id) {
         return adminDao.delete(id);
     }
+
+    @Override
+    public boolean login(String email, String password) {
+        AdminDao adminDao = new AdminDaoImpl();
+        Admin admin = adminDao.findByEmail(email);
+        if(admin == null){return false;}
+        if(password.equals(admin.getPassword())){
+            return true;
+        }
+        return false;
+    }
+
+    @Override
+    public boolean changePassword(String olPassword, String newPassword) {
+        return false;
+    }
 }
