@@ -18,8 +18,10 @@ public class deleteEmployee extends HttpServlet {
         long id = Integer.parseInt(request.getParameter("id"));
         EmployeDao employeDao = new EmployeDaoImpl();
         if(employeDao.delete(id)){
+
             response.sendRedirect(request.getContextPath() + "/home");
         }else {
+
             response.sendRedirect(request.getContextPath() + "/home");
         }
     }

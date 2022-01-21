@@ -10,53 +10,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1946ecf6-329a-402a-bcba-7edee72db58c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/servlets/Home.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/servlets/addEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/servlets/deleteEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/servlets/login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/servlets/setGoneOut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/home.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Gestion_employee_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Gestion_employee_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ognl_ognl_3_1_26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_12_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/servlets/updateEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/update.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion employee.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion employee.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/DAO/implementation/AdminDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/DAO/implementation/AdminDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/DAO/implementation/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/DAO/implementation/UserDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/DAO/interfaces/AdminDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/DAO/interfaces/AdminDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/DAO/interfaces/RoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/DAO/interfaces/RoleDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/DAO/interfaces/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/DAO/interfaces/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/services/implementations/AdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/services/implementations/AdminServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/services/interfaces/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/services/interfaces/AdminService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/servlets/deleteEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/servlets/deleteEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/abdelazizbardich/DAO/implementation/EmployeDaoImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/abdelazizbardich/DAO/implementation/EmployeDaoImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/abdelazizbardich/DAO/implementation/AddressDaoImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/abdelazizbardich/DAO/implementation/AddressDaoImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/abdelazizbardich-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/abdelazizbardich-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/abdelazizbardich-1.0-SNAPSHOT/WEB-INF/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/abdelazizbardich-1.0-SNAPSHOT/WEB-INF/classes/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/abdelazizbardich-1.0-SNAPSHOT/WEB-INF/classes/com/abdelazizbardich/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/abdelazizbardich-1.0-SNAPSHOT/WEB-INF/classes/com/abdelazizbardich/servlets/deleteEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/abdelazizbardich-1.0-SNAPSHOT/WEB-INF/classes/com/abdelazizbardich/servlets/deleteEmployee.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/abdelazizbardich-1.0-SNAPSHOT/WEB-INF/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/abdelazizbardich-1.0-SNAPSHOT/WEB-INF/classes/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/abdelazizbardich-1.0-SNAPSHOT/WEB-INF/lib/attoparser-2.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/abdelazizbardich-1.0-SNAPSHOT/WEB-INF/lib/ognl-3.1.26.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/abdelazizbardich-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.25.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/abdelazizbardich-1.0-SNAPSHOT/WEB-INF/lib/thymeleaf-3.0.12.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/abdelazizbardich-1.0-SNAPSHOT/WEB-INF/lib/unbescape-1.1.6.RELEASE.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/abdelazizbardich-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/abdelazizbardich-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/abdelazizbardich-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/abdelazizbardich-1.0-SNAPSHOT/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abdelazizbardich/DAO/implementation/AdminDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abdelazizbardich/DAO/implementation/AdminDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abdelazizbardich/DAO/implementation/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abdelazizbardich/DAO/implementation/UserDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abdelazizbardich/DAO/interfaces/AdminDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abdelazizbardich/DAO/interfaces/AdminDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abdelazizbardich/DAO/interfaces/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abdelazizbardich/DAO/interfaces/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abdelazizbardich/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abdelazizbardich/DAO/implementation/EmployeDaoImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/abdelazizbardich/DAO/implementation/EmployeDaoImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abdelazizbardich/servlets/deleteEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abdelazizbardich/servlets/deleteEmployee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abdelazizbardich/DAO/implementation/AddressDaoImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/abdelazizbardich/DAO/implementation/AddressDaoImplTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,7 +161,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeDaoImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AddressDaoImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Gestion employee" />
       <extension name="coverage">
         <pattern>
@@ -202,7 +170,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.abdelazizbardich.DAO.implementation" />
-      <option name="MAIN_CLASS_NAME" value="com.abdelazizbardich.DAO.implementation.EmployeDaoImplTest" />
+      <option name="MAIN_CLASS_NAME" value="com.abdelazizbardich.DAO.implementation.AddressDaoImplTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -316,19 +284,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.EmployeDaoImplTest" />
       <item itemvalue="JUnit.AddressDaoImplTest and 2 more" />
       <item itemvalue="JUnit.AddressDaoImplTest and 3 more" />
       <item itemvalue="JUnit.EmployeDaoImplTest.add" />
+      <item itemvalue="JUnit.AddressDaoImplTest" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.56" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AddressDaoImplTest" />
         <item itemvalue="JUnit.EmployeDaoImplTest.add" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.AddressDaoImplTest and 3 more" />
         <item itemvalue="JUnit.AddressDaoImplTest and 2 more" />
-        <item itemvalue="JUnit.EmployeDaoImplTest" />
       </list>
     </recent_temporary>
   </component>
@@ -353,6 +321,10 @@
       <workItem from="1642183704971" duration="8859000" />
       <workItem from="1642199087246" duration="6992000" />
       <workItem from="1642210642379" duration="44910000" />
+      <workItem from="1642598254122" duration="2627000" />
+      <workItem from="1642666332309" duration="4189000" />
+      <workItem from="1642682805774" duration="2302000" />
+      <workItem from="1642721886035" duration="3407000" />
     </task>
     <servers />
   </component>

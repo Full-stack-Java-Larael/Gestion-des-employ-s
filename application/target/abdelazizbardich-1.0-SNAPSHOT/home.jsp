@@ -186,6 +186,7 @@
             <td><% out.println(employe.getAddress().getCountry());%>, <% out.println(employe.getAddress().getCity());%>, <% out.println(employe.getAddress().getStreet());%>, <% out.println(employe.getAddress().getPostalCode());%></td>
             <td><% out.println(employe.getRole().getName());%></td>
             <td>
+                <a href="${pageContext.servletContext.contextPath}/set-gone?id=<% out.println(employe.getIdUser());%>" class="btn bg-dark">Edit</a>
                 <a href="${pageContext.servletContext.contextPath}/update?id=<% out.println(employe.getIdUser());%>" class="btn btn-primary">Edit</a>
                 <a href="${pageContext.servletContext.contextPath}/delete?id=<% out.println(employe.getIdUser());%>" class="btn btn-danger">Delete</a>
             </td>
