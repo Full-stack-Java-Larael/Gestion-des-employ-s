@@ -68,7 +68,6 @@ public class AdminDaoImpl implements AdminDao {
         Session session = HSessionFactory.getInstance().getSession().openSession();
         session.beginTransaction();
         Admin admin = session.find(Admin.class,id);
-        System.out.println(admin);
         session.delete(admin);
         session.getTransaction().commit();
         return true;
