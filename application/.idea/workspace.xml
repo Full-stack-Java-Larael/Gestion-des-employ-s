@@ -10,8 +10,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1946ecf6-329a-402a-bcba-7edee72db58c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/DAO/implementation/AdminDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/DAO/implementation/AdminDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abdelazizbardich/DAO/implementation/AdminDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abdelazizbardich/DAO/implementation/AdminDaoImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +28,8 @@
       <list>
         <option value="JUnit5 Test Class" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -96,7 +101,14 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.56">
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Gestion employee" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.abdelazizbardich.Main" />
       <module name="Gestion employee" />
@@ -106,18 +118,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AddressDaoImplTest and 2 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Gestion employee" />
-      <option name="TEST_OBJECT" value="pattern" />
-      <patterns>
-        <pattern testClass="com.abdelazizbardich.DAO.implementation.AddressDaoImplTest" />
-        <pattern testClass="com.abdelazizbardich.DAO.implementation.RoleDaoImplTest" />
-        <pattern testClass="com.abdelazizbardich.DAO.implementation.EmployeDaoImplTest" />
-      </patterns>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -271,7 +271,7 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.AddressDaoImplTest and 2 more" />
+      <item itemvalue="Application.Main (1)" />
       <item itemvalue="JUnit.AddressDaoImplTest and 3 more" />
       <item itemvalue="JUnit.EmployeDaoImplTest.add" />
       <item itemvalue="JUnit.AddressDaoImplTest" />
@@ -279,11 +279,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="JUnit.AddressDaoImplTest" />
         <item itemvalue="JUnit.EmployeDaoImplTest.add" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.AddressDaoImplTest and 3 more" />
-        <item itemvalue="JUnit.AddressDaoImplTest and 2 more" />
       </list>
     </recent_temporary>
   </component>
@@ -313,6 +313,10 @@
       <workItem from="1642682805774" duration="2302000" />
       <workItem from="1642721886035" duration="3407000" />
       <workItem from="1642732967522" duration="3536000" />
+      <workItem from="1642797138979" duration="2128000" />
+      <workItem from="1642881341265" duration="768000" />
+      <workItem from="1642944462057" duration="860000" />
+      <workItem from="1642945586514" duration="207000" />
     </task>
     <servers />
   </component>
