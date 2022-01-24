@@ -5,6 +5,10 @@
              version="3.0">
     <persistence-unit name="default">
         <class>entities.User</class>
+        <class>entities.Address</class>
+        <class>entities.Role</class>
+        <class>entities.Admin</class>
+        <class>entities.Employee</class>
         <properties>
             <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/gestion_employee_jpa"/>
             <property name="jakarta.persistence.jdbc.user" value="root"/>
