@@ -16,21 +16,22 @@ public class AddressService implements Service<Address>{
 
     @Override
     public ArrayList<Address> getAll() {
-        return null;
+        return dao.getAll();
     }
 
     @Override
     public Address findById(long id) {
-        return null;
+        return (Address) dao.findById((long) id);
     }
+
 
     @Override
     public boolean update(Address address) {
-        return false;
+        return dao.update(address);
     }
 
     @Override
     public boolean delete(long id) {
-        return false;
+        return dao.delete(id);
     }
 }

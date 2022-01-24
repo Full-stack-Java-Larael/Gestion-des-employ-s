@@ -23,21 +23,50 @@ public class AddressDao implements DAO<Address>{
 
     @Override
     public ArrayList<Address> getAll() {
-        return null;
+        try {
+            entityManager.getTransaction().begin();
+            ArrayList<Address> addresses =  new ArrayList<Address>(entityManager.createQuery("SELECT e from Address e").getResultList());
+            return addresses;
+        }catch (Exception e){
+            e.printStackTrace();
+            return null;
+        }
     }
 
     @Override
     public Address findById(long id) {
-        return null;
+        try {
+            entityManager.getTransaction().begin();
+            Address address =  entityManager.find(Address.class,id);
+            return address;
+        }catch (Exception e){
+            e.printStackTrace();
+            return null;
+        }
     }
 
+
     @Override
-    public boolean update(Address object) {
-        return false;
+    public boolean update(Address address) {
+        try {
+            entityManager.getTransaction().begin();
+            entityManager.merge(address);
+            entityManager.getTransaction().commit();
+            return true;
+        }catch (Exception e){
+            return false;
+        }
     }
 
     @Override
     public boolean delete(long id) {
-        return false;
+        try {
+            entityManager.getTransaction().begin();
+            entityManager.remove(entityManager.find(Address.class,id));
+            entityManager.getTransaction().commit();
+            return true;
+        }catch (Exception e){
+            return false;
+        }
     }
 }

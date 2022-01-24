@@ -1,5 +1,6 @@
 package DAO;
 
+
 import entities.Admin;
 import factories.PersistenceFactory;
 import jakarta.persistence.EntityManager;

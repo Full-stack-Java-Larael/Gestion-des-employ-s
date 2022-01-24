@@ -1,14 +1,15 @@
 package DAO;
 
+import entities.Role;
 import factories.PersistenceFactory;
 import jakarta.persistence.EntityManager;
 
 import java.util.ArrayList;
 
-public class RoleDao implements DAO<entities.Role>{
+public class RoleDao implements DAO<Role>{
     private EntityManager entityManager = PersistenceFactory.getInstance().getEntityManager();
     @Override
-    public boolean add(entities.Role role) {
+    public boolean add(Role role) {
         try {
             entityManager.getTransaction().begin();
             entityManager.persist(role);
@@ -21,17 +22,17 @@ public class RoleDao implements DAO<entities.Role>{
     }
 
     @Override
-    public ArrayList<entities.Role> getAll() {
+    public ArrayList<Role> getAll() {
         return null;
     }
 
     @Override
-    public entities.Role findById(long id) {
+    public Role findById(long id) {
         return null;
     }
 
     @Override
-    public boolean update(entities.Role object) {
+    public boolean update(Role object) {
         return false;
     }
 

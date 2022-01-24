@@ -1,9 +1,11 @@
 package Services;
 
 import entities.Address;
+import entities.Employee;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -37,7 +39,7 @@ class AddressServiceTest {
         Address address = new Address();
         address.setIdAddress((long)1);
         address.setCity("rabat");
-        address.setCountry("morocco");
+        address.setCountry("usa");
         address.setStreet("imam malik");
         address.setPostalCode(34567);
         Service service = new AddressService();
