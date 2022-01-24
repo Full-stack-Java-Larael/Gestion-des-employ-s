@@ -9,15 +9,15 @@ import java.util.ArrayList;
 public class RoleDao implements DAO<Role>{
     private EntityManager entityManager = PersistenceFactory.getInstance().getEntityManager();
     @Override
-    public boolean add(Role role) {
+    public Role add(Role role) {
         try {
             entityManager.getTransaction().begin();
             entityManager.persist(role);
             entityManager.getTransaction().commit();
             entityManager.close();
-            return true;
+            return role;
         }catch (Exception e){
-            return false;
+            return null;
         }
     }
 
@@ -39,6 +39,7 @@ public class RoleDao implements DAO<Role>{
             Role role = entityManager.find(Role.class,id);
             return  role;
         }catch (Exception e){
+            e.printStackTrace();
             return null;
         }finally {
             entityManager.close();

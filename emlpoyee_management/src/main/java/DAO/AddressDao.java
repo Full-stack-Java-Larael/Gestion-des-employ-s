@@ -8,16 +8,16 @@ import java.util.ArrayList;
 public class AddressDao implements DAO<Address>{
     private EntityManager entityManager = PersistenceFactory.getInstance().getEntityManager();
     @Override
-    public boolean add(Address address) {
+    public Address add(Address address) {
         try {
             entityManager.getTransaction().begin();
             entityManager.persist(address);
             entityManager.getTransaction().commit();
             entityManager.close();
-            return true;
+            return address;
         }catch (Exception e){
             e.printStackTrace();
-            return false;
+            return null;
         }
     }
 

@@ -11,8 +11,8 @@ import java.util.ArrayList;
 public class RoleService implements Service<Role>{
     private DAO dao = new RoleDao();
     @Override
-    public boolean add(Role role) {
-        return dao.add(role);
+    public Role add(Role role) {
+        return (Role) dao.add(role);
     }
 
     @Override

@@ -10,14 +10,14 @@ import java.util.ArrayList;
 public class AdminDao implements DAO<Admin>{
     private EntityManager entityManager = PersistenceFactory.getInstance().getEntityManager();
     @Override
-    public boolean add(Admin admin) {
+    public Admin add(Admin admin) {
         try {
             entityManager.getTransaction().begin();
             entityManager.persist(admin);
             entityManager.getTransaction().commit();
-            return true;
+            return admin;
         }catch (Exception e){
-            return false;
+            return null;
         }finally {
             entityManager.close();
         }

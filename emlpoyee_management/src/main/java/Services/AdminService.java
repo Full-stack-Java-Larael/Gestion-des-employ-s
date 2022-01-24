@@ -10,8 +10,8 @@ import java.util.ArrayList;
 public class AdminService implements Service<Admin> {
     private DAO dao = new AdminDao();
     @Override
-    public boolean add(Admin admin) {
-        return dao.add(admin);
+    public Admin add(Admin admin) {
+        return (Admin) dao.add(admin);
     }
 
     @Override

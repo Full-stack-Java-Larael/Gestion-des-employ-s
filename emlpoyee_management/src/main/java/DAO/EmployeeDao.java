@@ -11,14 +11,14 @@ public class EmployeeDao implements DAO<Employee>{
     private EntityManager entityManager = PersistenceFactory.getInstance().getEntityManager();
 
     @Override
-    public boolean add(Employee employee) {
+    public Employee add(Employee employee) {
         try {
             entityManager.getTransaction().begin();
             entityManager.persist(employee);
             entityManager.getTransaction().commit();
-            return true;
+            return employee;
         }catch (Exception e){
-            return false;
+            return null;
         }finally {
             entityManager.close();
         }

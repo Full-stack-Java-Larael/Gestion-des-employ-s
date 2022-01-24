@@ -9,8 +9,8 @@ import java.util.ArrayList;
 public class EmployeeService implements Service<Employee>{
     private DAO dao = new EmployeeDao();
     @Override
-    public boolean add(Employee employee) {
-        return dao.add(employee);
+    public Employee add(Employee employee) {
+        return (Employee) dao.add(employee);
     }
 
     @Override

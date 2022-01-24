@@ -10,8 +10,8 @@ import java.util.ArrayList;
 public class AddressService implements Service<Address>{
     private DAO dao = new AddressDao();
     @Override
-    public boolean add(Address address) {
-        return dao.add(address);
+    public Address add(Address address) {
+        return (Address) dao.add(address);
     }
 
     @Override
