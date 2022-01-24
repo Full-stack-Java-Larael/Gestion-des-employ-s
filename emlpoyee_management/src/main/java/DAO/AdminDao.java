@@ -15,30 +15,64 @@ public class AdminDao implements DAO<Admin>{
             entityManager.getTransaction().begin();
             entityManager.persist(admin);
             entityManager.getTransaction().commit();
-            entityManager.close();
             return true;
         }catch (Exception e){
             return false;
+        }finally {
+            entityManager.close();
         }
     }
 
     @Override
     public ArrayList<Admin> getAll() {
-        return null;
+        try {
+            entityManager.getTransaction().begin();
+            ArrayList<Admin> admins = new ArrayList<Admin>(entityManager.createQuery("SELECT e FROM Admin e").getResultList());
+            return admins;
+        }catch (Exception e){
+            return null;
+        }finally {
+            entityManager.close();
+        }
     }
 
     @Override
     public Admin findById(long id) {
-        return null;
+        try {
+            return entityManager.find(Admin.class,id);
+        }catch (Exception e){
+            return null;
+        }finally {
+            entityManager.close();
+        }
     }
 
     @Override
-    public boolean update(Admin object) {
-        return false;
+    public boolean update(Admin admin) {
+        try {
+            entityManager.getTransaction().begin();
+            entityManager.merge(admin);
+            entityManager.getTransaction().commit();
+            return true;
+        }catch (Exception e){
+            return false;
+        }finally {
+            entityManager.close();
+        }
     }
 
     @Override
     public boolean delete(long id) {
-        return false;
+        try {
+            entityManager.getTransaction().begin();
+            entityManager.remove(entityManager.find(Admin.class,id));
+            entityManager.getTransaction().commit();
+            return true;
+        }catch (Exception e){
+            e.printStackTrace();
+            return false;
+        }finally {
+            entityManager.close();
+        }
     }
 }

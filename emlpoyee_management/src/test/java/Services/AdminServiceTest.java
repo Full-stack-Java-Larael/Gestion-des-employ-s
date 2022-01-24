@@ -14,9 +14,9 @@ class AdminServiceTest {
     @Test
     void add() {
         Role role = new Role();
-        role.setIdRole((long)201);
+        role.setIdRole((long)51);
         Address address = new Address();
-        address.setIdAddress((long)401);
+        address.setIdAddress((long)151);
         Admin admin = new Admin();
         admin.setFirstName("Abdelaziz");
         admin.setLastName("Bardich");
@@ -48,8 +48,8 @@ class AdminServiceTest {
         address.setIdAddress((long)401);
         Admin admin = new Admin();
         admin.setIdUser((long)1);
-        admin.setFirstName("Abdelaziz");
-        admin.setLastName("Bardich");
+        admin.setFirstName("new Abdelaziz");
+        admin.setLastName("new Bardich");
         admin.setEmail("abdelazizbardich@gmail.com");
         admin.setPassword("pass1234");
         admin.setRole(role);

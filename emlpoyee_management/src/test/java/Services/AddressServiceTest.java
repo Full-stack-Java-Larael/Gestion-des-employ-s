@@ -1,11 +1,9 @@
 package Services;
 
 import entities.Address;
-import entities.Employee;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
-import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -49,6 +47,6 @@ class AddressServiceTest {
     @Test
     void delete() {
         Service service = new AddressService();
-        assertTrue(service.delete((long)1));
+        assertTrue(service.delete((long)101));
     }
 }

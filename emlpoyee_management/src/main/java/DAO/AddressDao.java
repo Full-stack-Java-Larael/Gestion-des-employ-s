@@ -26,6 +26,7 @@ public class AddressDao implements DAO<Address>{
         try {
             entityManager.getTransaction().begin();
             ArrayList<Address> addresses =  new ArrayList<Address>(entityManager.createQuery("SELECT e from Address e").getResultList());
+            System.out.println(addresses);
             return addresses;
         }catch (Exception e){
             e.printStackTrace();
