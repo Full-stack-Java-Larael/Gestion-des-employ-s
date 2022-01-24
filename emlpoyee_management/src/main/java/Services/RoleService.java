@@ -17,21 +17,21 @@ public class RoleService implements Service<Role>{
 
     @Override
     public ArrayList<Role> getAll() {
-        return null;
+        return dao.getAll();
     }
 
     @Override
     public Role findById(long id) {
-        return null;
+        return (Role) dao.findById(id);
     }
 
     @Override
     public boolean update(Role role) {
-        return false;
+        return dao.update(role);
     }
 
     @Override
     public boolean delete(long id) {
-        return false;
+        return dao.delete(id);
     }
 }

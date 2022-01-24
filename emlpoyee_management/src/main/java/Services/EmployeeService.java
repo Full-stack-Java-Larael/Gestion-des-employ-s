@@ -15,21 +15,21 @@ public class EmployeeService implements Service<Employee>{
 
     @Override
     public ArrayList<Employee> getAll() {
-        return null;
+        return dao.getAll();
     }
 
     @Override
     public Employee findById(long id) {
-        return null;
+        return (Employee) dao.findById(id);
     }
 
     @Override
     public boolean update(Employee employee) {
-        return false;
+        return dao.update(employee);
     }
 
     @Override
     public boolean delete(long id) {
-        return false;
+        return dao.delete(id);
     }
 }

@@ -16,21 +16,21 @@ public class AdminService implements Service<Admin> {
 
     @Override
     public ArrayList<Admin> getAll() {
-        return null;
+        return dao.getAll();
     }
 
     @Override
     public Admin findById(long id) {
-        return null;
+        return (Admin) dao.findById(id);
     }
 
     @Override
     public boolean update(Admin admin) {
-        return false;
+        return dao.update(admin);
     }
 
     @Override
     public boolean delete(long id) {
-        return false;
+        return dao.delete(id);
     }
 }
