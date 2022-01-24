@@ -16,30 +16,63 @@ public class EmployeeDao implements DAO<Employee>{
             entityManager.getTransaction().begin();
             entityManager.persist(employee);
             entityManager.getTransaction().commit();
-            entityManager.close();
             return true;
         }catch (Exception e){
             return false;
+        }finally {
+            entityManager.close();
         }
     }
 
     @Override
     public ArrayList<Employee> getAll() {
-        return null;
+        try {
+            ArrayList<Employee> employees = new ArrayList<Employee>(entityManager.createQuery("SELECT e FROM Employee e").getResultList());
+            return employees;
+        }catch (Exception e){
+            e.printStackTrace();
+            return null;
+        }finally {
+            entityManager.close();
+        }
+
     }
 
     @Override
     public Employee findById(long id) {
-        return null;
+        try {
+            Employee employee = entityManager.find(Employee.class,id);
+            return employee;
+        }catch (Exception e){
+            return null;
+        }finally {
+            entityManager.close();
+        }
+    }
+
+    @Override
+    public boolean update(Employee employee) {
+        try {
+            entityManager.getTransaction().begin();
+            entityManager.merge(employee);
+            entityManager.getTransaction().commit();
+            return true;
+        }catch (Exception e){
+            return false;
+        }finally {
+            entityManager.close();
+        }
     }
 
     @Override
     public boolean delete(long id) {
-        return false;
-    }
-
-    @Override
-    public boolean update(Employee object) {
-        return false;
+        try {
+            entityManager.remove(entityManager.find(Employee.class,id));
+            return true;
+        }catch (Exception e){
+            return false;
+        }finally {
+            entityManager.close();
+        }
     }
 }

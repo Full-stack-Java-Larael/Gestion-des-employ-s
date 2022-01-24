@@ -37,7 +37,7 @@ class EmployeeServiceTest {
     @Test
     void findById() {
         Service service = new EmployeeService();
-        assertInstanceOf(Employee.class,service.findById((long)1));
+        assertInstanceOf(Employee.class,service.findById((long)3));
     }
 
     @Test
@@ -48,8 +48,8 @@ class EmployeeServiceTest {
         address.setIdAddress((long)401);
         Employee employee = new Employee();
         employee.setIdUser((long)1);
-        employee.setFirstName("Abdelaziz");
-        employee.setLastName("Bardich");
+        employee.setFirstName("new Abdelaziz emp");
+        employee.setLastName("new Bardich emp");
         employee.setEmail("abdelazizbardich@gmail.com");
         employee.setPassword("pass1234");
         employee.setRole(role);
@@ -61,6 +61,6 @@ class EmployeeServiceTest {
     @Test
     void delete() {
         Service service = new EmployeeService();
-        assertTrue(service.delete((long)1));
+        assertTrue(service.delete((long)3));
     }
 }
