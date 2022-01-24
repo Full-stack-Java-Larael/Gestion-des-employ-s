@@ -1,15 +1,18 @@
 package Services;
 
 
+
+import DAO.DAO;
+import DAO.RoleDao;
 import entities.Role;
 
 import java.util.ArrayList;
 
 public class RoleService implements Service<Role>{
-
+    private DAO dao = new RoleDao();
     @Override
-    public boolean add(Role object) {
-        return false;
+    public boolean add(Role role) {
+        return dao.add(role);
     }
 
     @Override
@@ -23,7 +26,7 @@ public class RoleService implements Service<Role>{
     }
 
     @Override
-    public boolean update(Role object) {
+    public boolean update(Role role) {
         return false;
     }
 

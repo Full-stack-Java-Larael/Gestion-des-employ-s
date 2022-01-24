@@ -5,7 +5,7 @@ import jakarta.persistence.EntityManager;
 
 import java.util.ArrayList;
 
-public class Role implements DAO<entities.Role>{
+public class RoleDao implements DAO<entities.Role>{
     private EntityManager entityManager = PersistenceFactory.getInstance().getEntityManager();
     @Override
     public boolean add(entities.Role role) {

@@ -1,13 +1,17 @@
 package Services;
 
+
+import DAO.AdminDao;
+import DAO.DAO;
 import entities.Admin;
 
 import java.util.ArrayList;
 
 public class AdminService implements Service<Admin> {
+    private DAO dao = new AdminDao();
     @Override
-    public boolean add(Admin object) {
-        return false;
+    public boolean add(Admin admin) {
+        return dao.add(admin);
     }
 
     @Override
@@ -21,7 +25,7 @@ public class AdminService implements Service<Admin> {
     }
 
     @Override
-    public boolean update(Admin object) {
+    public boolean update(Admin admin) {
         return false;
     }
 

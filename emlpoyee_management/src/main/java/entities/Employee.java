@@ -6,11 +6,15 @@ import java.sql.Date;
 
 @Entity
 @Table(name = "employee")
-@PrimaryKeyJoinColumn(foreignKey = @ForeignKey(name = "id_user"))
 public class Employee extends User{
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id_user")
+    private Long idUser;
+
     @Column(name = "entry_date")
-    private Date entryDate;
+    private Date entryDate = new Date(System.currentTimeMillis());
     @Column(name = "gone_out")
     private boolean goneOut;
 

@@ -25,7 +25,7 @@ public class AddressService implements Service<Address>{
     }
 
     @Override
-    public boolean update(Address object) {
+    public boolean update(Address address) {
         return false;
     }
 
