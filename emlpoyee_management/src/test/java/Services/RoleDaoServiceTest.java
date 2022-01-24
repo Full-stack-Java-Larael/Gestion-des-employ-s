@@ -25,19 +25,19 @@ class RoleDaoServiceTest {
 
     @Test
     void findById() {
-        assertInstanceOf(Role.class,service.findById((long)1));
+        assertInstanceOf(Role.class,service.findById((long)51));
     }
 
     @Test
     void update() {
         Role role = new Role();
-        role.setIdRole((long)1);
-        role.setName("Role"+new Random().nextInt());
-        assertTrue(service.add(role));
+        role.setIdRole((long)51);
+        role.setName("new Role"+new Random().nextInt());
+        assertTrue(service.update(role));
     }
 
     @Test
     void delete() {
-        assertTrue(service.delete((long) 1));
+        assertTrue(service.delete((long) 51));
     }
 }

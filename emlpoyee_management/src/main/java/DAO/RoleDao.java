@@ -23,21 +23,51 @@ public class RoleDao implements DAO<Role>{
 
     @Override
     public ArrayList<Role> getAll() {
-        return null;
+        try {
+            ArrayList<Role> roles = new ArrayList<>(entityManager.createQuery("SELECT e FROM Role e").getResultList());
+            return roles;
+        }catch (Exception e){
+            return null;
+        }finally {
+            entityManager.close();
+        }
     }
 
     @Override
     public Role findById(long id) {
-        return null;
+        try {
+            Role role = entityManager.find(Role.class,id);
+            return  role;
+        }catch (Exception e){
+            return null;
+        }finally {
+            entityManager.close();
+        }
     }
 
     @Override
-    public boolean update(Role object) {
-        return false;
+    public boolean update(Role role) {
+        try {
+            entityManager.getTransaction().begin();
+            entityManager.merge(role);
+            entityManager.getTransaction().commit();
+            return true;
+        }catch (Exception e){
+            return false;
+        }finally {
+            entityManager.close();
+        }
     }
 
     @Override
     public boolean delete(long id) {
-        return false;
+        try {
+            entityManager.remove(entityManager.find(Role.class,id));
+            return true;
+        }catch (Exception e){
+            return false;
+        }finally {
+            entityManager.close();
+        }
     }
 }
