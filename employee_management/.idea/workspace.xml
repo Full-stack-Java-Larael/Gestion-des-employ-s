@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="employee_management:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8cef8bd2-ed68-463d-88f0-ee05aeb59873" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/src/main/java/DAO/AddressDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/src/main/java/DAO/AdminDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/src/main/java/DAO/DAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/src/main/java/DAO/EmployeeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/src/main/java/DAO/RoleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/src/main/java/Services/AddressService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/src/main/java/Services/AdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/src/main/java/Services/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/src/main/java/Services/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/src/main/java/Services/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/src/main/java/entities/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/src/main/java/entities/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/src/main/java/entities/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/src/main/java/entities/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/src/main/java/entities/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/src/main/java/factories/PersistenceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/src/main/java/serveltes/Home.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/target/classes/DAO/AddressDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/target/classes/DAO/AdminDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/target/classes/DAO/DAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/target/classes/DAO/EmployeeDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/target/classes/DAO/RoleDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/target/classes/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/target/classes/Services/AddressService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/target/classes/Services/AdminService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/target/classes/Services/EmployeeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/target/classes/Services/RoleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/target/classes/Services/Service.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/target/classes/entities/Address.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/target/classes/entities/Admin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/target/classes/entities/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/target/classes/entities/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/target/classes/entities/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/target/classes/factories/PersistenceFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/target/classes/serveltes/Home.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/target/employee_management.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/target/employee_management/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/target/employee_management/WEB-INF/classes/DAO/AddressDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/target/employee_management/WEB-INF/classes/DAO/AdminDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/target/employee_management/WEB-INF/classes/DAO/DAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/target/employee_management/WEB-INF/classes/DAO/EmployeeDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/target/employee_management/WEB-INF/classes/DAO/RoleDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/target/employee_management/WEB-INF/classes/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/target/employee_management/WEB-INF/classes/Services/AddressService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/target/employee_management/WEB-INF/classes/Services/AdminService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/target/employee_management/WEB-INF/classes/Services/EmployeeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/target/employee_management/WEB-INF/classes/Services/RoleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/target/employee_management/WEB-INF/classes/Services/Service.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/target/employee_management/WEB-INF/classes/entities/Address.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/target/employee_management/WEB-INF/classes/entities/Admin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/target/employee_management/WEB-INF/classes/entities/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/target/employee_management/WEB-INF/classes/entities/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/target/employee_management/WEB-INF/classes/entities/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/target/employee_management/WEB-INF/classes/factories/PersistenceFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/target/employee_management/WEB-INF/classes/serveltes/Home.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/target/employee_management/WEB-INF/lib/jakarta.persistence-api-3.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/target/employee_management/WEB-INF/lib/mysql-connector-java-8.0.28.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/target/employee_management/WEB-INF/lib/org.eclipse.persistence.asm-9.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/target/employee_management/WEB-INF/lib/org.eclipse.persistence.core-3.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/target/employee_management/WEB-INF/lib/org.eclipse.persistence.jpa-3.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/target/employee_management/WEB-INF/lib/org.eclipse.persistence.jpa.jpql-3.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/target/employee_management/WEB-INF/lib/protobuf-java-3.11.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/target/employee_management/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/employee_management/target/employee_management/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_3_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_28.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/.idea/libraries/Maven__org_eclipse_persistence_org_eclipse_persistence_asm_9_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/.idea/libraries/Maven__org_eclipse_persistence_org_eclipse_persistence_core_3_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/.idea/libraries/Maven__org_eclipse_persistence_org_eclipse_persistence_jpa_3_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/.idea/libraries/Maven__org_eclipse_persistence_org_eclipse_persistence_jpa_jpql_3_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/emlpoyee_management.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/src/main/java/DAO/AddressDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/src/main/java/DAO/AdminDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/src/main/java/DAO/DAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/src/main/java/DAO/EmployeeDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/src/main/java/DAO/RoleDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/src/main/java/Services/AddressService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/src/main/java/Services/AdminService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/src/main/java/Services/EmployeeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/src/main/java/Services/RoleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/src/main/java/Services/Service.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/src/main/java/entities/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/src/main/java/entities/Admin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/src/main/java/entities/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/src/main/java/entities/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/src/main/java/entities/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/src/main/java/factories/PersistenceFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/src/main/resources/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/src/test/java/Services/AddressServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/src/test/java/Services/AdminServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/src/test/java/Services/EmployeeServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/src/test/java/Services/RoleDaoServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/target/classes/DAO/AddressDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/target/classes/DAO/AdminDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/target/classes/DAO/DAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/target/classes/DAO/EmployeeDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/target/classes/DAO/RoleDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/target/classes/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/target/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/target/classes/Services/AddressService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/target/classes/Services/AdminService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/target/classes/Services/EmployeeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/target/classes/Services/RoleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/target/classes/Services/Service.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/target/classes/entities/Address.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/target/classes/entities/Admin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/target/classes/entities/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/target/classes/entities/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/target/classes/entities/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/target/classes/factories/PersistenceFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/target/test-classes/Services/AddressServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/target/test-classes/Services/AdminServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/target/test-classes/Services/EmployeeServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emlpoyee_management/target/test-classes/Services/RoleDaoServiceTest.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="249RnNKoP63xNcq5SFlBzK4b5pH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jpa/employee_management" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\azizt\Desktop\github-repos\Gestion-des-employ-s\employee_management\src\main" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\azizt\Desktop\github-repos\Gestion-des-employ-s\employee_management\src\main\java" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.561" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.561" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="employee_management:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/employee_management_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="be0f570b-c7a2-40ef-aff2-d955527481a9" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="55209" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="employee_management:war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8cef8bd2-ed68-463d-88f0-ee05aeb59873" name="Changes" comment="" />
+      <created>1643040987066</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1643040987066</updated>
+      <workItem from="1643040988336" duration="539000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
