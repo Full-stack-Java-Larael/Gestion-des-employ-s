@@ -7,7 +7,7 @@
         <packaging>war</packaging>
       </options>
     </properties>
-    <root id="archive" name="abdelazizbardich-1.0-SNAPSHOT.war">
+    <root id="archive" name="jpabuild.war">
       <element id="artifact" artifact-name="Gestion employee:war exploded" />
     </root>
   </artifact>
