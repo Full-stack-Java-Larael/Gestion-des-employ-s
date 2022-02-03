@@ -2,6 +2,7 @@ package com.abdelazizbardich.DAO.implementation;
 
 import com.abdelazizbardich.DAO.interfaces.AddressDao;
 import com.abdelazizbardich.entities.Address;
+import com.abdelazizbardich.entities.Admin;
 import com.abdelazizbardich.hibernate.HSessionFactory;
 import org.hibernate.Session;
 
@@ -20,12 +21,12 @@ public class AddressDaoImpl implements AddressDao {
 
     @Override
     public Address find(long id) {
+        System.out.println(id);
         Session session = HSessionFactory.getInstance().getSession().openSession();
         session.beginTransaction();
-        Address address = session.get(Address.class,id);
+        Address address = session.find(Address.class,id);
         session.close();
         return address;
-
     }
 
     @Override

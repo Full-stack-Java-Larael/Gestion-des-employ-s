@@ -30,7 +30,7 @@ class AddressDaoImplTest {
     @Test
     @Order(2)
     void find() {
-        assertInstanceOf(Address.class,new AddressDaoImpl().find(id));
+        assertInstanceOf(Address.class,new AddressDaoImpl().find(this.id));
     }
 
     @Test
