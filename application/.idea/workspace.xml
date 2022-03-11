@@ -9,7 +9,166 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1946ecf6-329a-402a-bcba-7edee72db58c" name="Changes" comment="" />
+    <list default="true" id="1946ecf6-329a-402a-bcba-7edee72db58c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Gestion_employee_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Gestion_employee_war.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Gestion_employee_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Gestion_employee_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_15.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_15.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_27.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_27.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_11_20.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_11_20.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_2_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_2_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_6_1_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_6_1_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_2_0_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_2_0_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_2_3_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_2_3_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_2_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_2_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_1_1_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_1_1_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gestion employee.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion employee.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/db/#ib_16384_0.dblwr" beforeDir="false" afterPath="$PROJECT_DIR$/backup/db/#ib_16384_0.dblwr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/db/auto.cnf" beforeDir="false" afterPath="$PROJECT_DIR$/backup/db/auto.cnf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/db/binlog.index" beforeDir="false" afterPath="$PROJECT_DIR$/backup/db/binlog.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/db/gestion_employe/address.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/backup/db/gestion_employe/address.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/db/gestion_employe/admin.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/backup/db/gestion_employe/admin.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/db/gestion_employe/employe.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/backup/db/gestion_employe/employe.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/db/gestion_employe/hibernate_sequence.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/backup/db/gestion_employe/hibernate_sequence.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/db/gestion_employe/role.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/backup/db/gestion_employe/role.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/db/gestion_employe/user.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/backup/db/gestion_employe/user.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/db/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/backup/db/ib_buffer_pool" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/db/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/backup/db/ib_logfile0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/db/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/backup/db/ibdata1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/db/mysql.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/backup/db/mysql.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/db/undo_001" beforeDir="false" afterPath="$PROJECT_DIR$/backup/db/undo_001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/db/undo_002" beforeDir="false" afterPath="$PROJECT_DIR$/backup/db/undo_002" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/DAO/implementation/AddressDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/DAO/implementation/AddressDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/DAO/implementation/AdminDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/DAO/implementation/AdminDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/DAO/implementation/EmployeDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/DAO/implementation/EmployeDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/DAO/implementation/RoleDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/DAO/implementation/RoleDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/DAO/implementation/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/DAO/implementation/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/DAO/interfaces/AddressDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/DAO/interfaces/AddressDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/DAO/interfaces/AdminDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/DAO/interfaces/AdminDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/DAO/interfaces/EmployeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/DAO/interfaces/EmployeDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/DAO/interfaces/RoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/DAO/interfaces/RoleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/DAO/interfaces/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/DAO/interfaces/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/HelloServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/entities/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/entities/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/entities/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/entities/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/entities/Employe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/entities/Employe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/entities/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/entities/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/hibernate/HSessionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/hibernate/HSessionFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/services/implementations/AddressServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/services/implementations/AddressServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/services/implementations/AdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/services/implementations/AdminServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/services/implementations/EmployeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/services/implementations/EmployeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/services/implementations/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/services/implementations/RoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/services/interfaces/AddressService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/services/interfaces/AddressService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/services/interfaces/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/services/interfaces/AdminService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/services/interfaces/EmployeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/services/interfaces/EmployeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/services/interfaces/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/services/interfaces/RoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/servlets/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/servlets/Home.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/servlets/addEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/servlets/addEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/servlets/deleteEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/servlets/deleteEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/servlets/login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/servlets/login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/servlets/setGoneOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/servlets/setGoneOut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/servlets/updateEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abdelazizbardich/servlets/updateEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/update.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/abdelazizbardich/DAO/implementation/AddressDaoImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/abdelazizbardich/DAO/implementation/AddressDaoImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/abdelazizbardich/DAO/implementation/AdminDaoImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/abdelazizbardich/DAO/implementation/AdminDaoImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/abdelazizbardich/DAO/implementation/EmployeDaoImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/abdelazizbardich/DAO/implementation/EmployeDaoImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/abdelazizbardich/DAO/implementation/RoleDaoImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/abdelazizbardich/DAO/implementation/RoleDaoImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abdelazizbardich/DAO/implementation/AddressDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abdelazizbardich/DAO/implementation/AdminDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abdelazizbardich/DAO/implementation/EmployeDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abdelazizbardich/DAO/implementation/RoleDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abdelazizbardich/DAO/implementation/UserDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abdelazizbardich/DAO/interfaces/AddressDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abdelazizbardich/DAO/interfaces/AdminDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abdelazizbardich/DAO/interfaces/EmployeDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abdelazizbardich/DAO/interfaces/RoleDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abdelazizbardich/DAO/interfaces/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abdelazizbardich/HelloServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abdelazizbardich/entities/Address.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abdelazizbardich/entities/Admin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abdelazizbardich/entities/Employe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abdelazizbardich/entities/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abdelazizbardich/entities/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abdelazizbardich/hibernate/HSessionFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abdelazizbardich/services/implementations/AddressServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abdelazizbardich/services/implementations/AdminServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abdelazizbardich/services/implementations/EmployeServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abdelazizbardich/services/implementations/RoleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abdelazizbardich/services/interfaces/AddressService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abdelazizbardich/services/interfaces/AdminService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abdelazizbardich/services/interfaces/EmployeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abdelazizbardich/services/interfaces/RoleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abdelazizbardich/servlets/Home.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abdelazizbardich/servlets/addEmployee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abdelazizbardich/servlets/deleteEmployee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abdelazizbardich/servlets/login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abdelazizbardich/servlets/setGoneOut.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abdelazizbardich/servlets/updateEmployee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jpabuild/WEB-INF/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/jpabuild/WEB-INF/classes/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jpabuild/WEB-INF/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/jpabuild/WEB-INF/classes/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jpabuild/WEB-INF/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jpabuild/WEB-INF/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jpabuild/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/jpabuild/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jpabuild/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/jpabuild/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jpabuild/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/jpabuild/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jpabuild/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/jpabuild/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jpabuild/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/jpabuild/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jpabuild/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/jpabuild/update.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abdelazizbardich/DAO/implementation/AddressDaoImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abdelazizbardich/DAO/implementation/AdminDaoImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abdelazizbardich/DAO/implementation/EmployeDaoImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abdelazizbardich/DAO/implementation/RoleDaoImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jpa/employee_management/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jpa/employee_management/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jpa/new_project/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jpa/new_project/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jpa/new_project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jpa/new_project/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,9 +229,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="//wsl$/Ubuntu/home/username/github-repos/SSII-Agency-Step-2" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.45402297" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -265,6 +424,7 @@
     <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
       <deployment type="docker-compose.yml">
         <settings>
+          <option name="envFilePath" value="" />
           <option name="sourceFilePath" value="docker-compose.yml" />
         </settings>
       </deployment>
@@ -323,6 +483,8 @@
       <workItem from="1643807362104" duration="5026000" />
       <workItem from="1643885477909" duration="845000" />
       <workItem from="1643895463874" duration="1884000" />
+      <workItem from="1645197591281" duration="2687000" />
+      <workItem from="1645432022785" duration="23000" />
     </task>
     <servers />
   </component>
